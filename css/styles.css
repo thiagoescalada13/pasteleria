@@ -1,5 +1,4 @@
 .header {
-    height: 20vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(230, 159, 211);
@@ -9,12 +8,21 @@
     width: 10vw;
 }
 
+.header ul .header-active {
+    border-top: 1px solid rgb(151, 97, 97) ;
+    border-bottom: 1px solid rgb(151, 97, 97);
+    font-size: 16px;
+    text-align: center;
+}
+
 .header ul {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 60px;
+    width: 100%;
     list-style: none;
 }
+
 
 .header ul li a {
     text-decoration: none;
@@ -89,6 +97,8 @@ padding: 5px;
     background-color: rgb(165, 102, 102);
 }
 
+
+
 .productos__items1 .productos__pedido .card  h5 {
     font-size: 25px;
 color: white;
@@ -102,7 +112,13 @@ color: white;
     border: 1px solid rgb(136, 135, 135);
     background-color: aliceblue;
     width: 100%;
+    transition: zoom .2s;
 }
+
+.productos__items1 .productos__pedido .card .btn:hover {
+    transform: scale(1.1);
+}
+
 
 .productos_abajo {
     background-color: rgb(236, 195, 195);
