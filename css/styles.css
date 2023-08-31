@@ -212,6 +212,152 @@ padding-right: 10px;
     font-size: 16px;
 }
 
+/*CONTACTO*/
+
+.contactorow{
+    background-color: aliceblue;
+}
+
+.contactorow .contacto__correo {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactorow .contacto__correo img {
+   width: 7vw;
+}
+
+.contactorow .contacto__correo input {
+    width: 30vw;
+}
+
+.contactorow .contacto__correo textarea {
+    width: 30vw;
+}
+
+.contactorow .contacto__correo .btn {
+    width: 30vw;
+}
+
+.contactorow .contacto__wsp {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 25px;
+    padding-right: 180px;
+}
+
+.contactorow .contacto__wsp img {
+width: 7vw;
+}
+
+.contactorow .contacto__wsp h2 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.contactorow .contacto__wsp ul {
+    padding-top: 2px;
+}
+
+.contactorow .contacto__wsp ul li{
+    border-bottom: 1px solid gray;
+    font-size: 23px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+.contacto__local {
+   height: 80vh;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+
+.contacto__local .local {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    background-color: aliceblue;
+}
+
+.contacto__local .local-img {
+
+  
+    margin: 10px 20px;
+    
+}
+
+.contacto__local .local-img img{
+    width: 20vw;
+    margin-top: 50px;
+    border: 2px solid rgb(160, 72, 72);
+}
+
+.contacto__local .local-img {
+    text-align: center;
+    color: black;
+}
+
+.contacto__local .local-img h4 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.contacto__local .local-img h5 {
+    font-size: 25px;
+}
+
+.contacto__local .local-text {
+    text-align: center;
+    margin: 0px 20px;
+    width: 100%;
+}
+
+.contacto__local .local-text h2 {
+    color: black;
+    font-size: 40px;
+}
+
+.contacto__local .local-text h4 {
+    color: black;
+    font-size: 15px;
+}
+
+.contacto__local .local-text iframe {
+    height: 35vh;
+    border: 1px solid rgb(129, 62, 62);
+    width: 25vw;
+}
+
+.contacto__local .local-text {
+    color: white;
+}
+
+.contacto__local .local-text .enviolocal {
+    align-items: center;
+    padding: 0px 30px;
+    display: flex; 
+}
+
+.contacto__local .local-text .enviolocal img {
+    width: 10vw;
+}
+
+.contacto__local .local-text .enviolocal h4 {
+    color: black;
+    padding-left: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
 /*FOOTER*/
 
 .footer__productos {
