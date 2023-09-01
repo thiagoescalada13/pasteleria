@@ -400,6 +400,26 @@ padding: 20px 10vw;
 }
 
 
+.categorias__lista {
+    padding-top: 5vh;
+}
+
+.categorias__lista1 {
+    border: 2px solid red;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+.categorias__lista1 nav ul {
+    padding-right: 40px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.categorias__productos {
+    padding: 10px 30px;
+}
+
 /*FOOTER*/
 
 .footer__productos {
