@@ -359,6 +359,7 @@
 
 .productos__row1 img:hover {
   transform: scale(1.2);
+  filter: blur(0px);
 }
 
 .productos__categoria {
@@ -378,6 +379,7 @@
 
 .productos__row2 img:hover {
   transform: scale(1.2);
+  filter: blur(0px);
 }
 
 .productos__row2 {

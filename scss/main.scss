@@ -377,8 +377,10 @@ width: 7vw;
 }
 
 
+
 .productos__row1 img:hover {
     transform: scale(1.2);
+    filter: blur(0px);
 }
 
 .productos__categoria {
@@ -398,6 +400,7 @@ padding: 20px 10vw;
 
 .productos__row2 img:hover {
     transform: scale(1.2);
+    filter: blur(0px);
 }
 
 .productos__row2 {
